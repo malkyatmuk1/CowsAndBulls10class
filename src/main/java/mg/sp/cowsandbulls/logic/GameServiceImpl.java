@@ -47,11 +47,13 @@ public class GameServiceImpl implements GameService {
 		
 		TryInfo tryInfo = new TryInfo();
 		tryInfo.setGuessString(guess);
-		gameInfo.getHistory().add(tryInfo);
-		
 		//TODO calculate cows and bulls
-			
+		//tryInfo.setCows and bulls
+		gameInfo.getHistory().add(tryInfo);
 		return gameInfo;
 	}
+	
+	//private calculate bulls
+	//private calculate cows
 
 }
